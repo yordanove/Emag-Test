@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Emag test" parallel="classes" thread-count="3">
+    <test name="Emag tests">
+        <packages>
+            <package name="com.selenium.brandmaker.emag.*"/>
+        </packages>
+    </test>
+</suite>
